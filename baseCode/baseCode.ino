@@ -24,14 +24,11 @@ void loop()
   }
 
   int rot = 0;
-
   int init_size = strlen(arr);
   char delim[] = ",";
-
   char *ptr = strtok(arr, delim);
   
-  int check;
-  check=0;
+  int check = 0;
   int a = 0;
 
   while (ptr != NULL)
